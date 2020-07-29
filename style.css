@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size:10px;
+	font-family:garamond-premier-pro-display;
+
+}
+body{
+	background-color:#4d5069;
+}
+a{
+	display: block;
+	text-decoration:none
+}
+.container{
+	max-width:98rem;
+	margin:0 auto;
+	padding:0 2.2rem;
+}
+.logos{
+	height:69.2rem;
+	background:url("miami.jpg");
+	background-size:auto 73.6rem;
+	background-position:center;
+	background-repeat:no-repeat;
+	border-bottom:.6rem solid black;
+	
+}
+
+.title-heading{
+	  font-family: cursive;
+	 color: #EEEEFF;
+	 font-size: 85px;
+	 font-weight: 500;
+	 letter-spacing: 6px;
+	   }
+
+.title{
+	color:white;
+	text-align: center;
+	padding-top:5.5rem;
+}
+
+.title-sub-heading{
+font-family: cursive;
+	color: yellow;
+	font-size:20px;
+	letter-spacing:2px;
+	word-spacing:5px;
+}
+.title-price{
+	font-size: 25px;
+	color:white;
+}
+.learn{
+	text-align:center;
+	margin-top:20px;
+    font-size:24px;
+}
+.sec2{
+	height:69.2rem;
+	background:url("paris.jpg");
+	background-size:auto 73.6rem;
+	background-position:center;
+	background-repeat:no-repeat;
+	border-bottom:.6rem solid black;
+	
+}
+.sec3{
+	height:69.2rem;
+	background:url("england.jpg");
+	background-size:auto 73.6rem;
+	background-position:center;
+	background-repeat:no-repeat;
+	border-bottom:.6rem solid black;
+}
+.sec4{
+	height:69.2rem;
+	background:url("italy.jpg");
+	background-size:auto 73.6rem;
+	background-position:center;
+	background-repeat:no-repeat;
+	border-bottom:.6rem solid black;
+}
+.sec5{
+	height:69.2rem;
+	background:url("malaysia.jpg");
+	background-size:auto 73.6rem;
+	background-position:center;
+	background-repeat:no-repeat;
+	border-bottom:.6rem solid black;
+}
+.sec6{
+	height:69.2rem;
+	background:url("singapore.jpg");
+	background-size:auto 73.6rem;
+	background-position:center;
+	background-repeat:no-repeat;
+	border-bottom:.6rem solid black;
+}
+footer{
+	background-color:#42455a;
+	width:100%;
+	position:relative;
+	bottom:0;
+	z-index:-1;
+	height:20px;
+	font-family: poppoins;
+	font-size:16px;
+	margin: 0;
+	margin-bottom:200px;
+}
+.footer-wrapper{
+	position:fixed;
+	left:20px;
+	bottom:50px;
+	width:100%;
+	margin:0 auto;
+}
+.single-footer{
+	width:33%;
+	float:left;
+	text-align:left;
+	color: white;
+}
+.single-footer ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+}
+.single-footer ul a{
+	text-transform:uppercase;
+	text-decoration:underline;
+	color: #C0C0C0;
+	font-size:12px;
+}
+.single-footer ul li{
+	word-spacing:3px;
+	letter-spacing:1px;
+	margin:8px;
+}
+.single-footer p{
+	width: 70%;
+}
+.single-footer li :hover{
+	color: white;
+}
+.copyright{
+	color:white;
+	position:absolute;
+    left:38%;
+}
